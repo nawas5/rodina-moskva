@@ -7,6 +7,15 @@ Thumbs.db
 *.swp
 *~
 
-# Служебные файлы (если появятся)
+# Файлы с секретами (никогда не коммитить)
 .env
-.env.local
+.env.*
+!.env.example
+*.pem
+*.key
+*secret*
+*secrets*
+*credentials*
+*.credentials
+config.local.*
+*.local
